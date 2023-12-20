@@ -2,29 +2,29 @@ public class Main {
     public static void main(String[] args) {
 
         //1. Calcular el area de un circulo
-        float radio=10, pi=3.1416f, area;
-        area= (radio*2)*pi;
+        float radio=5, pi=3.1416f, area;
+        area= (radio*radio)*pi;
         System.out.println("El area es: " +area);
 
 
         //2. Conversion de temperatura de Celsios a Fahrenheit
-        float cel=20, fah=0;
-        fah= (9/5)*cel+31;
+        float cel=20, fah;
+        fah= (9/5f*cel)+32;
         System.out.println("La conversion C a F es: "+fah);
 
 
         //3. Volumen de una esfera
-        float volu=0, radio2=4, pi2=3.1416f;
-        volu= (4/3)*pi2*(radio2*2);
+        float volu, radio2=3.50f, pi2=3.1416f;
+        volu= (4/3f)*pi2*(radio2*radio2);
         System.out.println("El volumen de una esfera es: "+volu);
 
 
         //4. Operaciones matematicas
-        float num1=10, num2=4,
-                result1=0,
-                result2=0,
-                result3=0,
-                result4=0;
+        float num1=10.20f, num2=4.20f,
+                result1,
+                result2,
+                result3,
+                result4;
         result1 = num1+num2;
         result2 = num1-num2;
         result3 = num1*num2;
