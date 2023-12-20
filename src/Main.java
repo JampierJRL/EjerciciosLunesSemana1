@@ -37,7 +37,7 @@ public class Main {
 
 
         //5. Conversion de moneda
-        float cantidadDolares=20,tipoCambioDolarEuro=3.70f,cantidadEuros=10,tipoCambioEuroDolar=3.92f,resul1,resul2;
+        float cantidadDolares=20,tipoCambioDolarEuro=0.91f,cantidadEuros=20,tipoCambioEuroDolar=1.10f,resul1,resul2;
 
         //Cambio de dolar a euros
         resul1= cantidadDolares*tipoCambioDolarEuro;
